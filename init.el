@@ -102,27 +102,27 @@
  ;; If there is more than one, they won't work right.
  )
 
-(straight-use-package 'solarized-theme)
-(load-theme 'solarized-dark t)
+;; (straight-use-package 'solarized-theme)
+;; (load-theme 'solarized-dark t)
 
-;; make the fringe stand out from the background
-(setq solarized-distinct-fringe-background t)
+;; ;; make the fringe stand out from the background
+;; (setq solarized-distinct-fringe-background t)
 
-;; Don't change the font for some headings and titles
-(setq solarized-use-variable-pitch nil)
+;; ;; Don't change the font for some headings and titles
+;; (setq solarized-use-variable-pitch nil)
 
-;; make the modeline high contrast
-;; (setq solarized-high-contrast-mode-line t)
+;; ;; make the modeline high contrast
+;; ;; (setq solarized-high-contrast-mode-line t)
 
-;; Use less bolding
-(setq solarized-use-less-bold t)
+;; ;; Use less bolding
+;; (setq solarized-use-less-bold t)
 
-;; Avoid all font-size changes
-(setq solarized-height-minus-1 1.0)
-(setq solarized-height-plus-1 1.0)
-(setq solarized-height-plus-2 1.0)
-(setq solarized-height-plus-3 1.0)
-(setq solarized-height-plus-4 1.0)
+;; ;; Avoid all font-size changes
+;; (setq solarized-height-minus-1 1.0)
+;; (setq solarized-height-plus-1 1.0)
+;; (setq solarized-height-plus-2 1.0)
+;; (setq solarized-height-plus-3 1.0)
+;; (setq solarized-height-plus-4 1.0)
 
 ;; initialize fullscreen on startup
 ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
